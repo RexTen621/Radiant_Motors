@@ -1,38 +1,57 @@
 [
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Koenigsegg Regera GT",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "detail": " Hybrid hypercar excellence, combining power, precision, and opulent luxury.",
+    "image": "./Regera.png"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "BMW M5",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "detail": " Fusion of power, performance, and elegance for an unparalleled driving experience.",
+    "image": "./M5.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Audi R8",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": " performance, and elegance reimagined for an extraordinary driving encounter",
+    "image": "./R8v1.png"
   },
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Lamborghini HuraCan",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "detail": "Unleash Power, performance, style – pure exhilaration.",
+    "image": "./Huracan.png"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "Ford Mustang",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "detail": "Iconic power, performance, and style – driving passion unleashed",
+    "image": "./MustangGT.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Audi RS7 ",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": "high-performance luxury sedan with a powerful V8 engine.",
+    "image": "./Aventador.png"
+
+  },
+  {
+    "name": "BMW i8",
+    "price": "35,853",
+    "detail": "futuristic design with electrifying performance for a cutting-edge driving experience.",
+    "image": "./i8.png"
+  },
+  {
+    "name": "Nissan GTR",
+    "price": "35,853",
+    "detail": "renowned sports car famed for its exceptional all-wheel-drive performance and iconic styling.",
+    "image": "./gtr.png"
+  },
+  {
+    "name": "Porsche 911",
+    "price": "35,853",
+    "detail": "classic sports car admired for its enduring design and thrilling performance.",
+    "image": "./911.png"
   }
 ]

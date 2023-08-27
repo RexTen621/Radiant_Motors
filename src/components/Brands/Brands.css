@@ -1,0 +1,67 @@
+.b-container{
+  
+justify-content: flex-start;
+align-items: center;
+background-color: beige;
+padding-left: 4rem;
+
+
+
+}
+.b-container img{
+    transition: all ease 0.4s;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    scale: 120%;
+    margin-bottom: 2rem;
+
+}
+
+.scroller img:hover{
+    cursor: pointer;
+    scale: 140%;
+    
+    opacity: 1;
+}
+
+.scroller{
+    white-space: nowrap;
+    overflow:hidden;
+   
+
+}
+.scroller-in{
+   
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll;
+    
+    animation-duration: 20s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    
+}
+.scroller-in img{
+    display: inline-block;
+    margin-right: 10rem;
+   
+}
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+@media(max-width:480px){
+    .scroller{
+        white-space: wrap;
+        overflow:hidden;
+       
+    
+    }
+
+}

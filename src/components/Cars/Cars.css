@@ -1,0 +1,95 @@
+
+.c-container{
+    overflow: hidden;
+    position: relative;
+}
+
+.c-wrapper{
+    background: var(--black);
+}
+.c-head{
+    padding-left: 1rem;
+    
+}
+.c-card{
+    width: 24rem;
+   
+    gap:1rem;
+    padding: 2rem;
+    max-width: max-content;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+    margin-top: 2rem;
+}
+.c-card img{
+    width: 150%;
+    max-width: 15rem;
+}
+.c-card :nth-child(2){
+    
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.c-card :nth-child(3){
+    font-size: 1.5rem;
+}
+.c-card:nth-child(4){
+    font-size: 0.7rem;
+    width: 15rem;
+}
+
+.c-card:hover{
+    cursor: pointer;
+    scale: 1.025;
+    background: var(--orange-gradient);
+    .detail{
+        color: black;
+   
+        font-size: 0.9rem;
+    }
+    
+}
+.detail{
+    color: rgb(140 139 139);
+    font-size: 0.9rem;
+}
+
+.c-buttons{
+    position:absolute;
+    gap: 1rem;
+   
+    top:0px;
+    right:0;
+    
+    border: none;
+  
+   z-index: 999;
+   transition: all ease 0.2s;
+}
+.c-buttons button{
+    width: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    transition: all ease 0.5s;
+    
+}
+.c-buttons button:hover{
+    scale: 110%;
+    background: var(--orange-gradient);
+}
+
+@media(max-width:480px){
+    .c-card{
+        width: 19rem;
+       
+        gap:1rem;
+        padding: 2rem;
+        max-width: max-content;
+        border-radius: 10px;
+        transition: all ease 0.3s;
+        margin-top: 2rem;
+        
+    }
+
+}

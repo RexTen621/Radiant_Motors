@@ -1,0 +1,51 @@
+.h-container{
+   background: var(--black);
+   color: white;
+   justify-content: space-between;
+   padding-top: 0rem;
+   padding-bottom: 0px;
+   
+   padding-right: 9rem;
+   padding-left: 150px;
+   color: var(--secondary);
+   position: relative;
+  
+   z-index: 2;
+  }
+  
+
+  .h-menu{
+   
+   gap: 1.5rem;
+   font-size: 0.8rem;
+  }
+  .h-menu>*:hover{
+   cursor: pointer;
+  }
+  .menu-icon{
+   display: none;
+  }
+  @media(max-width:768px){
+   .menu-icon{
+      display: block;
+   }
+   .h-menu{
+      color: var(--black);
+      position: absolute;
+      top: 3rem;
+      right: 4rem;
+      background-color: white;
+      flex-direction: column;
+      font-weight: 500;
+      gap: 2rem;
+      padding: 3rem;
+      border-radius: 10px;
+      align-items: flex-start;
+      box-shadow: 0px 4px 4px rgba(0,0,0, 0.5);
+      transition: all ease-in 0.3s;
+
+   }
+   .h-container{
+      padding: 2rem;
+   }
+  }

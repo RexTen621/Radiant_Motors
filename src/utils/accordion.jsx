@@ -3,21 +3,21 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    heading: "Best Intereset rates in the market",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Explore our dealership's unbeatable used car interest rates for maximum savings and affordability. Drive home your dream car today.",
   },
   {
     icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    heading: "Best price on the market",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Discover unmatched market prices on pre-owned vehicles at our dealership. Your perfect used car is waiting for you – don't miss out.",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "Best After Sales Services",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Experience top-tier after-sales service at our dealership. We're committed to keeping your car running smoothly long after your purchase for complete peace of mind.",
   },
 ];
 export default data;

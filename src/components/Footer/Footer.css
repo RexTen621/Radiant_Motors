@@ -1,0 +1,59 @@
+.f-container{
+    background: var(--black);
+    gap: 20rem;
+}
+.f-left{
+    padding: 2rem;
+    .secondaryText{
+        width: 22rem;
+    }
+    margin-left: 5rem;
+}
+.f-right {
+    margin-top: 2rem;
+    width: 25rem;
+    .spanText{
+        margin-top: 2rem;
+        
+        
+        transition: all ease 0.2s;
+        
+    }
+
+}
+.f-right .spanText:hover{
+    color: #5d77d6;
+    cursor: pointer;
+}
+.f-end{
+    font-weight: 500;
+    gap: 1rem;
+    
+    
+    width: 25rem;
+    
+}
+
+@media(max-width:480px){
+    .f-container{
+      justify-content: center;
+      flex-direction: column;
+      gap:2rem;
+    }
+    .f-container div{
+        align-items: center!important;
+        text-align: center;
+    }
+    .f-right{
+        width:80%;
+    }
+    .f-left{
+        justify-content: center;
+        padding-left: 32px;
+        margin: 0px;
+    }
+    .f-end{
+        justify-content: center;
+    }
+}
+
